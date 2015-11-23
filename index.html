@@ -3,10 +3,13 @@
 <head>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
-<script scr= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-	<script src="js/main.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+			<script src="js/main.js"></script>
+			<scriot src="js/addons/unslider-master/src/js/unslider.js"></script>
 		<title>Charis Bob Rafailidis</title>
 		<div class="header">
 			<div class="container">
@@ -28,7 +31,11 @@
 
 		<!-- Hero Section -->
 		<div class="jumbotron">
-			<div class="container">
+
+			<div class="container"><div class="banner">
+    <ul><li>This is my slider.</li><li>Pretty cool, huh?</li></ul>
+</div>
+
 				<h1>Your Go-To Web Developer</h1>
 				<p>What you need, done with perfection</p>
 				<div class="btn btn-default">Contact</div>
@@ -57,13 +64,15 @@
 		<footer>
 			<div class="container">
 				<ul>
-					<li><a href="#">LinkedIn</li>
-					<li><a href="#">Twitter</li>  
-					<li><a href="#">Twitter</li>
+					<li><a href="https://gr.linkedin.com/in/charis-bob-rafailidis-a6871a50"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/charisra"><i class="fa fa-github"></i></li>  
+					<li><a href="https://twitter.com/hrafailidis"><i class="fa fa-twitter"></i></li>
+					<li><a href="https://www.facebook.com/charis.rafailidis"><i class="fa fa-facebook"></i></li>
+
 				</ul>
 			</div>
 		</footer>
-
+		<script>$(function() { $('.banner').unslider() })</script>
 	</body>
 </head>
 </html>

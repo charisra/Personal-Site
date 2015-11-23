@@ -1,3 +1,5 @@
 $(document).ready(function(){
-	alert('hello');
+	$('.active').on('click',function(){
+		$(this).removeClass();
+	});
 });
