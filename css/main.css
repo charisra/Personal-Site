@@ -10,7 +10,7 @@ html, body {
 
 .header {
 	background-color: #232673;
-	height:100px;
+	height:80px;
 }
 
 .header .container .row h1 {
@@ -33,7 +33,7 @@ html, body {
 .header .container .row a{
 	color:#fff;
 	border-color:#BC1B2D;
-	border:5px solid #BC1B2D;
+	border:2px solid #BC1B2D;
 	padding: 15px 15px 10px 10px;
 	margin: 15px 15px;
 	font-size: 20px;
