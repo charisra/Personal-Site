@@ -62,7 +62,7 @@ html, body {
 }
 
 /* main section */
-.jumbotron {
+.jumbotron, .jumbotron1{
 background:url("https://images.unsplash.com/photo-1443453489887-98f56bc5bb38?ixlib=rb-0.3.5&q=80&fm=jpg&s=8247aa8df715c81791867ed6112c0eba") center no-repeat;
 background-size: cover;
 color:#fff;
