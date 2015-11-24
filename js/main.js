@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	$('.active').on('click',function(){
-		$(this).removeClass();
+	$('.nav a').on('click',function(){
+		$('.nav a').removeClass('active');
+		$(this).addClass('active')
 	});
 });
