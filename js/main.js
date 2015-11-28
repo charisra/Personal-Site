@@ -4,11 +4,27 @@ $(document).ready(function(){
 		$(this).addClass('active')
 	});
 	$('.project').hover(function(){
-		$('.thumbnail').css('opacity',0.2);
+		$('#thumbnail1').css('opacity',0.2);
 		$('#overflow-btn').css('opacity',1);
 	},
 	function(){
-		$('.thumbnail').css('opacity',1);
+		$('#thumbnail1').css('opacity',1);
 		$('#overflow-btn').css('opacity',0);
+});
+		$('.project2').hover(function(){
+		$('#thumbnail2').css('opacity',0.2);
+		$('#overflow-btn2').css('opacity',1);
+	},
+	function(){
+		$('#thumbnail2').css('opacity',1);
+		$('#overflow-btn2').css('opacity',0);
+});
+		$('.project3').hover(function(){
+		$('#thumbnail3').css('opacity',0.2);
+		$('#overflow-btn3').css('opacity',1);
+	},
+	function(){
+		$('#thumbnail3').css('opacity',1);
+		$('#overflow-btn3').css('opacity',0);
 });
 	});

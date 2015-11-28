@@ -92,13 +92,14 @@ min-height: 450px;
 	text-align: center;
 }
 
-#overflow-btn{
+#overflow-btn, #overflow-btn2, #overflow-btn3{
 	position: absolute;
 	top: 150px;
 	left:138px;
 	opacity: 0;
 	z-index: 1;
 }
+
 
 
 #overflow {
