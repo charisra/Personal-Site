@@ -100,7 +100,12 @@ min-height: 450px;
 	z-index: 1;
 }
 
-
+#contactbtn{
+	 background-color: #FFCC6A;
+}
+#contactbtn:hover{
+	background-color: #BC1B2D;
+}
 
 #overflow {
 background:rgba(0,0,0);
