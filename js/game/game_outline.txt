@@ -1,0 +1,13 @@
+/* 
+Title: Best Boss
+-----------------
+We all want to have the best bosses. Or be those bosses ;) This game takes
+you through a small journey and tries to determine how good of a boss you
+would be or currently are
+
+-------
+
+Characters						Attributes
+--------						----------
+- You (the boss)       			- name, age, current employment position
+- Final score					- 0-25, 26-50, 51-75, 76-100
