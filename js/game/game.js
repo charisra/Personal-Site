@@ -20,6 +20,9 @@ alert('Hello, welcome to the Best Boss game.');
 
 			var weirdoChoice = prompt("Your longtime top developer" + weirdo.position + "," + weirdo.name + " messed up your website. You are losing users, sales. What do you do with Mark? 'Fire', 'Confront' him for 1 hour asking why this happend and blaming god for putting this misery your way, 'Tell' him it's ok but he'll have to work hard to fix the issue, 'Cut' 50% of his salary. Answer by typing 1 word with '' ").toUpperCase();
 				while (weirdoChoice!='CUT' && weirdoChoice!='FIRE' && weirdoChoice!='CONFRONT' && weirdoChoice!='TELL'){
+					var weirdoChoice = prompt("Your longtime top developer" + weirdo.position + ',' + weirdo.name + " messed up your website. You are losing users, sales. What do you do with Mark? 'Fire', 'Confront' him for 1 hour asking why this happend and blaming god for putting this misery your way, 'Tell' him it's ok but he'll have to work hard to fix the issue, 'Cut' 50% of his salary. Answer by typing 1 of the words above ").toUpperCase();
+				}
+
 			switch (weirdoChoice){
 				case 'FIRE':
 					totalscore += 10;
@@ -37,31 +40,26 @@ alert('Hello, welcome to the Best Boss game.');
 					totalscore +=  0;
 					console.log('Just 50% ?');
 					break;
-			}
-					var weirdoChoice = prompt("Your longtime top developer" + weirdo.position + ',' + weirdo.name + " messed up your website. You are losing users, sales. What do you do with Mark? 'Fire', 'Confront' him for 1 hour asking why this happend and blaming god for putting this misery your way, 'Tell' him it's ok but he'll have to work hard to fix the issue, 'Cut' 50% of his salary. Answer by typing 1 of the words above ").toUpperCase();
 
-		
 		}
 			console.log("Step 2 Totalscore = "+ totalscore);
 			var check = prompt("Good Boss Check !\n Do you remember the first names of your 3 employees?\n Yes or No?").toUpperCase();
 				while (check !='YES' && check !='NO'){
 					var check = prompt ("Good Boss Check.\n Do you remember the first names of your 3 employees?\n Yes or No?").toUpperCase();
+				}
 					if (check='YES'){
 						console.log('Wow, you have some guts!');
 						var checkResponse1 = prompt('Ok Mr.Fantastic Boss, write the 3 first names separated by a comma');
 						if (checkResponse1 == 'Mark,Steve,Maria' || checkResponse1 == 'Mark, Steve, Maria' || checkResponse1 == 'Steve,Mark,,Maria'){
 							console.log('Nice');
+							totalscore += 25;
 						}
 					else {
 						totalscore-=5;
 					} 
 					console.log("Step 3 Totalscore = "+ totalscore);
 					}
-				
-				
-				
-		}
-
+		
 
 			}
 		else{
