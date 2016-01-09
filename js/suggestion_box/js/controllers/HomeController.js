@@ -12,6 +12,7 @@ app.controller('HomeController',[
 	$scope.posts.push({
 		title: $scope.title,
 		upvotes: 0,
+		comments: [],
 	});
 	$scope.title = '';
 	};
